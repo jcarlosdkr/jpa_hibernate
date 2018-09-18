@@ -18,7 +18,7 @@ public class TestEmpleados {
 	public static void main(String[] args){
 		
 		/**
-		 * Crear el gestor d persistencia (EM).
+		 * Crear el gestor de persistencia (EM).
 		 */
 		emf = Persistence.createEntityManagerFactory("aplicacion");
 		manager = emf.createEntityManager();
